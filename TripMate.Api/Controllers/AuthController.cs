@@ -8,6 +8,7 @@ namespace TripMate.Api.Controllers;
 [Route("api/auth")]
 public class AuthController : ControllerBase
 {
+    //beboo
     private readonly IAuthService _authService;
 
     public AuthController(IAuthService authService)
